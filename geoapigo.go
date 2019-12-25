@@ -11,16 +11,16 @@ import (
 // Response is the structure of a response as is
 // returned by the geoapi endpoint.
 type Response struct {
-	IP       string
-	Range    []int
-	Country  string
-	Region   string
-	Eu       string
-	Timezone string
-	City     string
-	Ll       []float32
-	Metro    int
-	Area     int
+	IP       string    `json:"ip"`
+	Range    []int     `json:"range"`
+	Country  string    `json:"country"`
+	Region   string    `json:"region"`
+	Eu       string    `json:"eu"`
+	Timezone string    `json:"timezone"`
+	City     string    `json:"city"`
+	Ll       []float32 `json:"ll"`
+	Metro    int       `json:"metro"`
+	Area     int       `json:"area"`
 }
 
 // Get makes a GET request to the geoapi endpoint
