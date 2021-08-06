@@ -14,7 +14,7 @@ package main
 import (
 	"fmt"
 
-	geoapigo "github.com/Risk3sixty-Labs/geoapi-go"
+	geoapigo "github.com/risk3sixty/geoapi-go"
 )
 
 func main() {
